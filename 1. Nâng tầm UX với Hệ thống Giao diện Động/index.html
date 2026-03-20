@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script>
+        if (localStorage.getItem("Theme") === "dark") {
+            document.documentElement.classList.add("dark");
+        }
+    </script>
+    <style>
+        section {
+            background-color: #F7F8F9;
+            color: black;
+            padding: 50px;
+            transition: all 0.3s ease;  
+        }
+        html.dark section {
+            background-color: black; 
+            color: #F7F8F9;
+        }
+    </style>
+    
+</head>
+<body>
+    <section>
+    <header><div class="logo">RIKKEI TECH HUB</div> <div><span id="btn-light">☀️</span><span id="btn-dark">🌙</span></div></header>
+    <h1>Al đang thay đổi ngành công nghệ Việt Nam như thế nào?</h1>
+    <img src="https://static.wixstatic.com/media/nsplsh_73028770d30546d18c621c9a80a3bbdb~mv2.jpg/v1/fill/w_740,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_73028770d30546d18c621c9a80a3bbdb~mv2.jpg" alt="ảnh minh họa">
+    
+<div>   Trong những năm gần đây, trí tuệ nhân tạo (Al) đã không còn là khái niệm xa vời. Tại Việt Nam, hàng loạt startup và doanh nghiệp lớn đã bắt đầu tích hợp Al vào sản phẩm và quy trình vận hành.
+</div>
+<br>
+<div>   Từ trợ lý ảo, phân tích dữ liệu kinh doanh, nhận diện hình ảnh, đến tối ưu hóa chuỗi cung ứng - AI đang hiện diện ở hầu hết các lĩnh vực. Đặc biệt, sau đại dịch, nhu cầu chuyển đổi số tăng vọt đã thúc đẩy làn sóng ứng dụng AI mạnh mbao giờ hết.</div>
+<br>
+<div>   Tuy nhiên, thách thức lớn nhất không phải là công nghệ, mà là con người: thiếu nhân lực chất lượng cao, nhận thức về đạo đức Al còn hạn chế, và nguy cơ mat việc làm ở một số ngành truyền thống.</div>
+
+</section>
+<script src="./script.js"></script>
+</body>
+</html>

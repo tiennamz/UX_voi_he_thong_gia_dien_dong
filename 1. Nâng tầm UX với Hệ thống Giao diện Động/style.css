@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 20px;
+    
+}
+section{
+    width: 900px;
+    height: 800px;
+    font-size:large;
+    border: #323232 1px solid;
+    border-radius: 8px;
+    padding:10px 20px;
+    margin-top: 20px;
+    background-color: #F7F8F9;
+}
+
+div{
+    text-indent: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+span:hover{
+    cursor: pointer;
+}
